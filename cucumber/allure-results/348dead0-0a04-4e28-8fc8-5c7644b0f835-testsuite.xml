@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652981849088' stop='1652981850756'>
+    <name>Search Input: As a user, I should be able to search by Category</name>
+    <title>Search Input: As a user, I should be able to search by Category</title>
+    <test-cases>
+        <test-case start='1652981849088' status='passed' stop='1652981849088'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.64'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1652981849088' status='passed' stop='1652981850755'>
+            <name>Given I am on the home page</name>
+            <title>Given I am on the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.64'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1652981850755' status='broken' stop='1652981850755'>
+            <name>When on the navbar I select category "TV Episodes"</name>
+            <title>When on the navbar I select category "TV Episodes"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.64'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "on the navbar I select category "TV Episodes"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "on the navbar I select category "TV Episodes"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/luiscas/Enroute/e2e-testing-main/luis-dominguez/cucumber/features/login.feature):1:1
+                	at Scenario(As a user, I should be able to search by Category):3:3
+                	at Step(on the navbar I select category "&lt;Category>"):5:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1652981850755' status='broken' stop='1652981850756'>
+            <name>Then I should see the category dropdown now matches "TV Episodes"</name>
+            <title>Then I should see the category dropdown now matches "TV Episodes"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.64'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I should see the category dropdown now matches "TV Episodes"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I should see the category dropdown now matches "TV Episodes"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/luiscas/Enroute/e2e-testing-main/luis-dominguez/cucumber/features/login.feature):1:1
+                	at Scenario(As a user, I should be able to search by Category):3:3
+                	at Step(I should see the category dropdown now matches "&lt;Category>"):6:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1652981850756' status='passed' stop='1652981850756'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.64'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
