@@ -19,5 +19,5 @@ GET the albums of the last 5 artists from the Top 10
 ## Deliverables
 Test Plan & Strategy.pdf    
 Test Matrix & Cases.pdf     
-Selenium Proyect  
-Postman Responses    
+Selenium Proyect (Musixmatch UI Tests.side)  
+Postman Responses     
